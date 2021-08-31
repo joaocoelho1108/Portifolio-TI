@@ -1,0 +1,59 @@
+getConnection = se haver um erro, utilize dos drivers que faltantes, ou realize o que se pede 
+
+
+=============================
+close = ele vê se há conexão é nula ou não, se a resposta for não ela fecha e mostra o erro
+
+=============================
+
+salvar = realiza uma conexão, não necessitando dos dois programas, utilizando do preparedstatement para que assim possa utilizar o connection, usando do conection e importando,depois referenciando o comando para que possa buscar o que ela irá buscar e salvar na tabela .
+
+=============================
+
+deletar = deletar a tabela
+
+=============================
+
+atualiza Banco = atualizar a tabela
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+class Main {
+  public static void main(String[] args) {
+    /*Banco.getConnection();
+    Usuario u = new Usuario();
+    u.setId(1);
+    u.setNome("anita");
+    Banco.salvar(u);
+
+    Usuario u = new Usuario();
+    u.setId(2);
+    u.setNome("Marina");
+    Banco.salvar(u);
+
+    Usuario u = new Usuario();
+    u.setId(3);
+    u.setNome("Rodrigo");
+    Banco.salvar(u);
+    Usuario u = new Usuario();
+    u.set Id(4);
+    u.setNome("Godofredo");
+
+    Banco.salvar(u);
+    */
+    Usuario u = new Usuario();
+    u.setId(2);
+    u.setNome("Anita da Silva");
+    Banco.atualizá Banco(u);
+    
+  }
+}
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+	 		 	
