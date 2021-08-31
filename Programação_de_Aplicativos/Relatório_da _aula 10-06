@@ -1,7 +1,0 @@
--criamos o app
--colocamos onde a imagem deve ficar
--para ter acesso ao armazenamento interno é necessário dar a permissão a ele por meio do MainActivity
-“android.permission.READ_EXTERNAL_STORAGE”
--para acessar a câmera, damos acesso do app a ela, primeiro direcionamos o ImageView ao quadrado que colocamos lá no início, descrito como “iv” na aula.
--Após isso colocamos um comando para testar o acesso a câmera, caso não tenha ele deverá pedir.
-- para finalizar é necessário vincular o botão ao método para que ele realize a ação.
